@@ -8,6 +8,7 @@ const redirectToEmail = () => {
 <template>
   <div class="relative bg-ebony-950 text-white h-screen overflow-hidden">
     <div class="flex flex-col items-center justify-center h-full gap-y-6 px-6 sm:px-12">
+      <AppNavbar/>
       <p class="text-xs sm:text-sm text-link-water-100 uppercase tracking-[.25em]">
         Hatem Obeidine
       </p>
