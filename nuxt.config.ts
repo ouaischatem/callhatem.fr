@@ -10,6 +10,9 @@ export default defineNuxtConfig({
   css: [
     '@/assets/css/main.css',
   ],
-  modules: ['@nuxtjs/tailwindcss'],
+  i18n: {
+    vueI18n: './i18n.config.ts'
+  },
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/i18n'],
   compatibilityDate: '2024-12-23',
 });
