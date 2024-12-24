@@ -22,7 +22,7 @@ const scrollToSection = (sectionId: string) => {
     <AppLangToggle />
   </nav>
 
-  <nav class="gap-x-4 items-center justify-center px-6 py-4 bg-ebony-900 text-white border border-ebony-600 rounded-xl max-w-lg mx-auto sm:flex hidden">
+  <AppCard class="gap-x-4 items-center justify-center px-6 py-4 text-white rounded-xl max-w-lg mx-auto sm:flex hidden">
     <div
         v-for="item in navItems"
         :key="item.id"
@@ -33,7 +33,7 @@ const scrollToSection = (sectionId: string) => {
     </div>
 
     <AppLangToggle />
-  </nav>
+  </AppCard>
 </template>
 
 <style scoped>
