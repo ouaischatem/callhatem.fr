@@ -11,6 +11,12 @@ export default defineI18nConfig(() => ({
             },
             button: {
                 contact: 'Let\'s discuss your project'
+            },
+            nav: {
+                about: "About",
+                projects: "Projects",
+                testimonials: "Testimonials",
+                contact: "Contact"
             }
         },
         fr: {
@@ -21,6 +27,12 @@ export default defineI18nConfig(() => ({
             },
             button: {
                 contact: 'Discutons de votre projet'
+            },
+            nav: {
+                about: "À propos",
+                projects: "Projets",
+                testimonials: "Témoignages",
+                contact: "Contact"
             }
         }
     }
