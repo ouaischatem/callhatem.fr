@@ -1,3 +1,4 @@
 <template>
   <AppHome/>
+  <AppProjects/>
 </template>
