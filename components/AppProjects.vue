@@ -30,6 +30,7 @@ onMounted(() => {
   const section = document.querySelector('#projects');
   if (section) {
     const observer = new IntersectionObserver(([entry]) => {
+      if (sectionVisible.value) return;
       sectionVisible.value = entry.isIntersecting;
     }, { threshold: 0.2 });
 
