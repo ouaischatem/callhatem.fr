@@ -23,10 +23,26 @@ const projects = ref([
     technologies: ['react', 'tailwind', 'figma', 'ts', 'nest', 'mongodb'],
   },
 ]);
+
+const sectionVisible = ref(false);
+
+onMounted(() => {
+  const section = document.querySelector('#projects');
+  if (section) {
+    const observer = new IntersectionObserver(([entry]) => {
+      sectionVisible.value = entry.isIntersecting;
+    }, { threshold: 0.2 });
+
+    observer.observe(section);
+  }
+});
 </script>
 
 <template>
-  <section id="projects" class="bg-ebony-950 text-white min-h-screen text-center px-4">
+  <section
+      id="projects"
+      class="bg-ebony-950 text-white min-h-screen text-center px-4 pt-16"
+  >
     <h1 class="text-2xl sm:text-4xl font-bold mb-8">
       <span v-html="t('projects.title')"></span>
     </h1>
@@ -35,6 +51,7 @@ const projects = ref([
           v-for="project in projects"
           :key="project.id"
           class="px-4 py-6 text-left flex flex-col gap-y-2 bg-ebony-900 rounded-lg shadow-lg h-full"
+          :class="{'slide-from-left': sectionVisible, 'invisible': !sectionVisible}"
       >
         <img
             :src="`/images/projects/${project.id}.png`"

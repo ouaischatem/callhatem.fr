@@ -15,11 +15,11 @@ const redirect = () => {
       <AppNavbar />
     </div>
     <div class="flex flex-col items-center justify-center h-full gap-y-6 px-6 sm:px-12 z-10 relative">
-      <p class="text-xs sm:text-sm text-link-water-100 uppercase tracking-[.25em]">
+      <p class="slide-from-right text-xs sm:text-sm text-link-water-100 uppercase tracking-[.25em]">
         Hatem Obeidine
       </p>
 
-      <p class="slide-once text-4xl sm:text-6xl font-bold text-white text-center">
+      <p class="slide-from-left-small text-4xl sm:text-6xl font-bold text-white text-center">
         {{ t('header.description') }}
         <br />
         <span class="text-mauve-300 font-bold">{{ t('header.innovative') }}</span>
@@ -33,23 +33,11 @@ const redirect = () => {
         {{ t('button.contact') }}
       </AppButton>
     </div>
+    <div class="absolute bottom-12 left-1/2 transform -translate-x-1/2 grid">
+      <img src="/images/vectors/arrow.svg" class="h-24 w-24 object-contain" alt="Scroll Arrow">
+    </div>
   </div>
 </template>
 
 <style scoped>
-@keyframes slideInWithFade {
-  0% {
-    opacity: 0;
-    transform: translateX(-30px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-.slide-once {
-  display: inline-block;
-  animation: slideInWithFade 1s ease-out;
-}
 </style>

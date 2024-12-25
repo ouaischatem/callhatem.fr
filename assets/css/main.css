@@ -1,3 +1,74 @@
+/* Importation des directives de Tailwind */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Animation : déplacement de gauche à droite */
+@keyframes slideFromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%) scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0) scale(1);
+    }
+}
+
+.slide-from-left {
+    animation: slideFromLeft 1s ease-out forwards;
+}
+
+@keyframes slideFromRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100%) scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0) scale(1);
+    }
+}
+
+.slide-from-right {
+    animation: slideFromRight 1s ease-out forwards;
+}
+
+@keyframes slideFromLeftSmall {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0) scale(1);
+    }
+}
+
+.slide-from-left-small {
+    animation: slideFromLeftSmall 1s ease-out forwards;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #cbacf9;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: transparent;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #cbacf9 transparent;
+}
