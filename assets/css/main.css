@@ -55,7 +55,7 @@
 }
 
 ::-webkit-scrollbar-track {
-    background-color: transparent;
+    background-color: #01031a;
     border-radius: 10px;
 }
 
@@ -65,10 +65,10 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: transparent;
+    background-color: #01031a;
 }
 
 * {
     scrollbar-width: thin;
-    scrollbar-color: #cbacf9 transparent;
+    scrollbar-color: #cbacf9 #01031a;
 }
