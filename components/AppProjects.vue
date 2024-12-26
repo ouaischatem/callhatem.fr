@@ -42,12 +42,12 @@ onMounted(() => {
 <template>
   <section
       id="projects"
-      class="bg-ebony-950 text-white min-h-screen text-center px-4 pt-16"
+      class="bg-ebony-950 text-white text-center pt-16 px-4"
   >
     <h1 class="text-2xl sm:text-4xl font-bold mb-8">
       <span v-html="t('projects.title')"></span>
     </h1>
-    <div class="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-6">
+    <div class="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-6 ">
       <AppCard
           v-for="project in projects"
           :key="project.id"

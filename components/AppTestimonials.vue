@@ -27,7 +27,7 @@ const swiper = useSwiper(containerRef, {
 </script>
 
 <template>
-  <section id="testimonials" class="bg-ebony-950 text-white min-h-screen text-center px-4 pt-24">
+  <section id="testimonials" class="bg-ebony-950 text-white text-center px-4 pt-24">
     <h1 class="text-2xl sm:text-4xl font-bold mb-8">
       <span>{{ t("testimonials.title") }}</span>
     </h1>
