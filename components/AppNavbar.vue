@@ -1,28 +1,30 @@
-<script setup lang="ts">
+<script lang="ts" setup>
 import AppLangToggle from "~/components/AppLangToggle.vue";
-const { t } = useI18n();
+
+const {t} = useI18n();
 
 const navItems = ref([
-  { id: 'about', label: 'nav.about' },
-  { id: 'projects', label: 'nav.projects' },
-  { id: 'testimonials', label: 'nav.testimonials' },
-  { id: 'contact', label: 'nav.contact' }
+  {id: 'about', label: 'nav.about'},
+  {id: 'projects', label: 'nav.projects'},
+  {id: 'testimonials', label: 'nav.testimonials'},
+  {id: 'skills', label: 'nav.skills'},
+  {id: 'contact', label: 'nav.contact'}
 ]);
 
 const scrollToSection = (sectionId: string) => {
   const element = document.getElementById(sectionId);
   if (element) {
-    element.scrollIntoView({ behavior: 'smooth' });
+    element.scrollIntoView({behavior: 'smooth'});
   }
 };
 </script>
 
 <template>
   <nav class="flex justify-center pt-6 sm:hidden">
-    <AppLangToggle />
+    <AppLangToggle/>
   </nav>
 
-  <AppCard class="gap-x-4 items-center justify-center px-6 py-4 text-white rounded-xl max-w-lg mx-auto sm:flex hidden">
+  <AppCard class="gap-x-5 items-center justify-center px-6 py-4 text-white rounded-xl max-w-2xl mx-auto sm:flex hidden">
     <div
         v-for="item in navItems"
         :key="item.id"
@@ -32,7 +34,7 @@ const scrollToSection = (sectionId: string) => {
       {{ t(item.label) }}
     </div>
 
-    <AppLangToggle />
+    <AppLangToggle/>
   </AppCard>
 </template>
 

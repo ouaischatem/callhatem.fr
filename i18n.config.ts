@@ -16,6 +16,7 @@ export default defineI18nConfig(() => ({
                 about: "About",
                 projects: "Projects",
                 testimonials: "Testimonials",
+                skills: "Skills",
                 contact: "Contact"
             },
             projects: {
@@ -58,6 +59,131 @@ export default defineI18nConfig(() => ({
                     testimonial: "I had the pleasure of working with Hatem on a web development project, and I couldn’t be more pleased with the outcome. He is a true professional who delivers high-quality work quickly and efficiently. His expertise has been invaluable, and I would gladly work with him again on future projects.",
                     range: "CTO"
                 }
+            },
+            skills: {
+                title: "Explore my skills...",
+                stacks: {
+                    nuxt: {
+                        title: "NuxtJS",
+                        description: "VueJS Framework"
+                    },
+                    vue: {
+                        title: "VueJS",
+                        description: "JavaScript/TypeScript Framework"
+                    },
+                    tailwind: {
+                        title: "TailwindCSS",
+                        description: "CSS Framework"
+                    },
+                    react: {
+                        title: "React",
+                        description: "JavaScript Library"
+                    },
+                    css: {
+                        title: "CSS",
+                        description: "Stylesheets"
+                    },
+                    html: {
+                        title: "HTML",
+                        description: "Markup Language"
+                    },
+                    typescript: {
+                        title: "TypeScript",
+                        description: "Programming Language"
+                    },
+                    javascript: {
+                        title: "JavaScript",
+                        description: "Programming Language"
+                    },
+                    docker: {
+                        title: "Docker",
+                        description: "Containerization"
+                    },
+                    nodejs: {
+                        title: "NodeJS",
+                        description: "JavaScript Runtime Environment"
+                    },
+                    php: {
+                        title: "PHP",
+                        description: "Programming Language"
+                    },
+                    nest: {
+                        title: "NestJS",
+                        description: "NodeJS Framework"
+                    },
+                    express: {
+                        title: "ExpressJS",
+                        description: "NodeJS Framework"
+                    },
+                    java: {
+                        title: "Java",
+                        description: "Programming Language"
+                    },
+                    python: {
+                        title: "Python",
+                        description: "Programming Language"
+                    },
+                    kotlin: {
+                        title: "Kotlin",
+                        description: "Programming Language"
+                    },
+                    mysql: {
+                        title: "MySQL",
+                        description: "Relational Database"
+                    },
+                    postgresql: {
+                        title: "PostgreSQL",
+                        description: "Relational Database"
+                    },
+                    mongodb: {
+                        title: "MongoDB",
+                        description: "NoSQL Database"
+                    },
+                    supabase: {
+                        title: "Supabase",
+                        description: "Cloud Database"
+                    },
+                    sqlite: {
+                        title: "SQLite",
+                        description: "Lightweight Database"
+                    },
+                    redis: {
+                        title: "Redis",
+                        description: "In-memory Database"
+                    },
+                    vscode: {
+                        title: "Visual Studio Code",
+                        description: "Modern Code Editor"
+                    },
+                    sublime: {
+                        title: "Sublime Text",
+                        description: "Fast Text Editor"
+                    },
+                    idea: {
+                        title: "JetBrains Suite",
+                        description: "Full IDE (IntelliJ, WebStorm...)"
+                    },
+                    eclipse: {
+                        title: "Eclipse",
+                        description: "IDE for Java and others"
+                    },
+                    figma: {
+                        title: "Figma",
+                        description: "Collaborative Design Tool"
+                    },
+                    github: {
+                        title: "GitHub",
+                        description: "Source Code Management"
+                    },
+                    gitlab: {
+                        title: "GitLab",
+                        description: "DevOps and CI/CD Platform"
+                    },
+                    vercel: {
+                        title: "Vercel",
+                        description: "Deployment Platform"
+                    }
+                }
             }
         },
         fr: {
@@ -73,6 +199,7 @@ export default defineI18nConfig(() => ({
                 about: "À propos",
                 projects: "Projets",
                 testimonials: "Témoignages",
+                skills: "Compétences",
                 contact: "Contact"
             },
             projects: {
@@ -114,6 +241,131 @@ export default defineI18nConfig(() => ({
                 customer3: {
                     testimonial: "J'ai eu le plaisir de travailler avec Hatem sur un projet de développement web et je ne pourrais pas être plus satisfait du résultat. C'est un véritable professionnel qui livre un travail de qualité rapidement et efficacement. Son expertise a été précieuse et je serais ravi de travailler avec lui sur des projets futurs.",
                     range: "CTO"
+                }
+            },
+            skills: {
+                title: "Explorez mes compétences...",
+                stacks: {
+                    nuxt: {
+                        title: "NuxtJS",
+                        description: "Framework VueJS"
+                    },
+                    vue: {
+                        title: "VueJS",
+                        description: "Framework JavaScript/TypeScript"
+                    },
+                    tailwind: {
+                        title: "TailwindCSS",
+                        description: "Framework CSS"
+                    },
+                    react: {
+                        title: "React",
+                        description: "Bibliothèque JavaScript"
+                    },
+                    css: {
+                        title: "CSS",
+                        description: "Feuilles de style"
+                    },
+                    html: {
+                        title: "HTML",
+                        description: "Langage de balisage"
+                    },
+                    typescript: {
+                        title: "TypeScript",
+                        description: "Langage de programmation"
+                    },
+                    javascript: {
+                        title: "JavaScript",
+                        description: "Langage de programmation"
+                    },
+                    docker: {
+                        title: "Docker",
+                        description: "Containerization"
+                    },
+                    nodejs: {
+                        title: "NodeJS",
+                        description: "Environnement JavaScript"
+                    },
+                    php: {
+                        title: "PHP",
+                        description: "Langage de programmation"
+                    },
+                    nest: {
+                        title: "NestJS",
+                        description: "Framework NodeJS"
+                    },
+                    express: {
+                        title: "ExpressJS",
+                        description: "Framework NodeJS"
+                    },
+                    java: {
+                        title: "Java",
+                        description: "Langage de programmation"
+                    },
+                    python: {
+                        title: "Python",
+                        description: "Langage de programmation"
+                    },
+                    kotlin: {
+                        title: "Kotlin",
+                        description: "Langage de programmation"
+                    },
+                    mysql: {
+                        title: "MySQL",
+                        description: "Base de données relationnelle"
+                    },
+                    postgresql: {
+                        title: "PostgreSQL",
+                        description: "Base de données relationnelle"
+                    },
+                    mongodb: {
+                        title: "MongoDB",
+                        description: "Base de données NoSQL"
+                    },
+                    supabase: {
+                        title: "Supabase",
+                        description: "Base de données cloud"
+                    },
+                    sqlite: {
+                        title: "SQLite",
+                        description: "Base de données légère"
+                    },
+                    redis: {
+                        title: "Redis",
+                        description: "Base de données en mémoire"
+                    },
+                    vscode: {
+                        title: "Visual Studio Code",
+                        description: "Éditeur de code moderne"
+                    },
+                    sublime: {
+                        title: "Sublime Text",
+                        description: "Éditeur de texte rapide"
+                    },
+                    idea: {
+                        title: "JetBrains Suite",
+                        description: "IDE complet (IntelliJ, WebStorm...)"
+                    },
+                    eclipse: {
+                        title: "Eclipse",
+                        description: "IDE pour Java et autres"
+                    },
+                    figma: {
+                        title: "Figma",
+                        description: "Outil de design collaboratif"
+                    },
+                    github: {
+                        title: "GitHub",
+                        description: "Gestion de code source"
+                    },
+                    gitlab: {
+                        title: "GitLab",
+                        description: "Plateforme DevOps et CI/CD"
+                    },
+                    vercel: {
+                        title: "Vercel",
+                        description: "Plateforme de déploiement"
+                    }
                 }
             }
         }
