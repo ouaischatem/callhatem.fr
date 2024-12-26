@@ -3,5 +3,6 @@
   <AppProjects/>
   <AppTestimonials/>
   <AppSkills/>
+  <AppSteps/>
   <AppFooter/>
 </template>

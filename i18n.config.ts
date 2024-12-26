@@ -184,6 +184,22 @@ export default defineI18nConfig(() => ({
                         description: "Deployment Platform"
                     }
                 }
+            },
+            steps: {
+                title: "My process...",
+                step: "Phase",
+                step1: {
+                    title: "Planning",
+                    description: "Once the objectives are defined, I create a detailed plan and start sketching the first ideas, involving you from the start.",
+                },
+                step2: {
+                    title: "Development",
+                    description: "Once the plan is approved, I dive into development, regularly sending you updates to ensure full transparency.",
+                },
+                step3: {
+                    title: "Finalization",
+                    description: "Once the project is complete, I fine-tune the details, conduct tests, and deliver a ready-to-deploy solution, ensuring it meets your expectations.",
+                },
             }
         },
         fr: {
@@ -367,6 +383,22 @@ export default defineI18nConfig(() => ({
                         description: "Plateforme de déploiement"
                     }
                 }
+            },
+            steps: {
+                title: "Mon processus...",
+                step: "Phase",
+                step1: {
+                    title: "Planification",
+                    description: "Une fois les objectifs définis, je mets en place un plan détaillé et je commence à esquisser les premières idées, tout en vous impliquant dès le début.",
+                },
+                step2: {
+                    title: "Développement",
+                    description: "Une fois le plan validé, je me plonge dans le développement, tout en vous envoyant régulièrement des mises à jour pour assurer une transparence totale.",
+                },
+                step3: {
+                    title: "Finalisation",
+                    description: "Une fois le projet terminé, je peaufine les détails, effectue les tests et vous livre une solution prête à déployer, en m’assurant qu’elle répond à vos attentes.",
+                },
             }
         }
     }
