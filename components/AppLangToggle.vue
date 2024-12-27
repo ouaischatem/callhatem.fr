@@ -1,18 +1,18 @@
-<script setup lang="ts">
+<script lang="ts" setup>
 import frenchFlag from 'public/images/french-flag.png';
 import englishFlag from 'public/images/english-flag.png';
 
-const { locale, setLocale } = useI18n();
+const {locale, setLocale} = useI18n();
 
 </script>
 
 <template>
   <button
-      @click="locale === 'fr' ? setLocale('en') : setLocale('fr')"
-      aria-label="Change Language">
+      aria-label="Change Language"
+      @click="locale === 'fr' ? setLocale('en') : setLocale('fr')">
     <img
-        :src="locale === 'fr' ? frenchFlag : englishFlag"
         :alt="locale === 'fr' ? 'Français' : 'English'"
+        :src="locale === 'fr' ? frenchFlag : englishFlag"
         class="w-12 h-8 rounded-lg focus:outline-none"
     />
   </button>

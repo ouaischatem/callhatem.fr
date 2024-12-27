@@ -12,19 +12,19 @@ const categories = {
     stacks: ["docker", "nodejs", "php", "nest", "express", "java", "python", "kotlin"]
   },
   database: {
-    title: "Bases de données",
+    title: "Database",
     stacks: ["mysql", "postgresql", "mongodb", "supabase", "sqlite", "redis"]
   },
   tools: {
-    title: "IDE et outils",
+    title: "IDE & tools",
     stacks: ["vscode", "sublime", "idea", "eclipse", "figma", "github", "gitlab", "vercel"]
   },
 };
 </script>
 
 <template>
-  <section id="skills" class="bg-ebony-950 text-white text-center pt-24">
-    <h1 class="text-2xl sm:text-3xl font-bold mb-8">{{ t("skills.title") }}</h1>
+  <section id="skills" class="pt-24">
+    <AppSectionTitle>{{ t("skills.title") }}</AppSectionTitle>
 
     <div class="flex justify-center gap-4 mb-8 flex-wrap">
       <button

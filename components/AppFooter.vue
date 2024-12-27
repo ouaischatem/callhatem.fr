@@ -8,10 +8,14 @@ const socialLinks = [
 </script>
 
 <template>
-  <footer class="bg-ebony-950 p-10">
+  <footer class="p-10">
     <div
-        class="flex flex-row justify-between items-center text-lightblue-100 mx-auto max-w-screen-lg text-xs uppercase font-medium">
-      <span>© 2024 Hatem OBEIDINE, Auto-entrepreneur (SIRET: 930 362 546)</span>
+        class="flex flex-row justify-between items-center text-lightblue-100 mx-auto max-w-screen-lg text-xs font-medium">
+      <div class="flex flex-col gap-x-2">
+        <span>contact@callhatem.fr</span>
+        <span>Auto-entrepreneur (SIRET: 930 362 546)</span>
+        <span class="uppercase">© {{ new Date().getFullYear() }} Hatem OBEIDINE 🔥</span>
+      </div>
       <div class="flex flex-row gap-x-2">
         <div v-for="social in socialLinks" :key="social.title"
              class="w-10 h-10 border border-ebony-600 bg-ebony-950 rounded-full flex justify-center items-center">
