@@ -1,48 +1,52 @@
-# Nuxt Example
+# 🌐 Personal Portfolio - [callhatem.fr](https://callhatem.fr)
 
-Deploy your [Nuxt](https://nuxt.com) project to Vercel with zero configuration.
+<img src="./public/images/showcase.png" alt="Portfolio Showcase">
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/nuxtjs&template=nuxtjs)
+Welcome to my personal portfolio, designed as a modern and responsive landing page. It highlights my skills, projects, and services as a full-stack developer. 🌟
+## 🛠️ Technologies Used
 
-_Live Example: https://nuxtjs-template.vercel.app_
+The project uses <a href="https://nuxt.com">NuxtJS <img src="https://skillicons.dev/icons?i=nuxt" alt="Nuxt 3" width="12" height="12"></a> and <a href="https://tailwindcss.com">TailwindCSS <img src="https://skillicons.dev/icons?i=tailwind" alt="TailwindCSS" width="12" height="12"></a> for a modern and efficient development process.
 
-Look at the [Nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+## 🌍 Features
 
-## Setup
+- **Modern Landing Page**: Clean and user-friendly design.
+- **Multilingual**: Available in French 🇫🇷 and English 🇬🇧.
+- **Responsive**: Optimized for all devices (mobile, tablet, desktop).
 
-Make sure to install the dependencies:
+## 🖌️ Inspiration
 
-```bash
-# yarn
-yarn
+The design of this portfolio is inspired by numerous open-source projects found on Figma. A big thanks to everyone who freely shares their ideas and creations. 🙌
 
-# npm
-npm install
+## 📂 Installation and Setup
 
-# pnpm
-pnpm install --shamefully-hoist
-```
+To run this project locally, follow these steps:
 
-## Development Server
+1. Clone the repository:
+   ```bash
+   git https://github.com/ouaischatem/callhatem.fr
+   cd your-repo
+   ```
+2. Install dependencies: :
+   ```bash
+   npm install
+   ```
+3. Start the local server:
+   ```bash
+    npm run dev
+   ```
+4. Open your browser and navigate to:
+   ```bash
+    http://localhost:3000
+   ```
+   
+## 📜 Licence
 
-Start the development server on http://localhost:3000
+This project is open-source under the MIT License. You are free to use, modify, and adapt it as needed. However, please credit the author (Hatem Obeidine) as the original contributor.
 
-```bash
-npm run dev
-```
+## 📧 Contact
 
-## Production
+Have questions or want to collaborate? Feel free to reach out:
 
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://nuxt.com/docs/getting-started/deployment#presets) for more information.
+- **[Email](mailto:contact@callhatem.fr)** : contact@callhatem.fr
+- **[Portfolio](https://callhatem.fr)** : callhatem.fr
+- **[LinkedIn](https://www.linkedin.com/in/hatemobeidine/)** : Hatem Obeidine
