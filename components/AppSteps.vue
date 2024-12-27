@@ -1,5 +1,9 @@
 <script setup lang="ts">
 const { t } = useI18n();
+
+const redirect = () => {
+  navigateTo("https://www.linkedin.com/in/hatem-obeidine/", { external: true, open: {target: '_blank'} });
+};
 </script>
 
 <template>
@@ -31,6 +35,20 @@ const { t } = useI18n();
           {{ t("steps.step" + step + ".description") }}
         </p>
       </AppCard>
+    </div>
+
+    <div class="flex flex-col items-center justify-center gap-y-6 px-6 pt-14 pb-14">
+      <p class="text-2xl sm:text-3xl font-bold text-white text-center">
+        Prêt à propulser votre projet
+        <br />
+        <span class="text-mauve-300 font-bold">à un niveau supérieur ?</span>
+      </p>
+
+      <p class="text-sm text-lightblue-100 text-center">
+        Contactez-moi pour un devis gratuit et discutons de vos objectifs.
+      </p>
+
+      <AppButton @click="redirect" class="text-sm">Obtenir un devis</AppButton>
     </div>
   </section>
 </template>
