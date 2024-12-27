@@ -20,8 +20,8 @@ const redirect = () => {
       >
         <img
             :alt="step"
-            :src="`/images/steps/step${step}.png`"
-            class="w-14 h-14 rounded-md object-cover"
+            :src="`/images/steps/step${step}.svg`"
+            class="w-18 h-18 rounded-md object-cover"
         />
         <AppCard class="mt-5 bg-ebony-900 px-3 py-1.5 text-sm text-mauve-300 font-medium">
           {{ t("steps.step") + ` ${step}` }}

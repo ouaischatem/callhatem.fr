@@ -9,7 +9,7 @@ const categories = {
   },
   backEnd: {
     title: "Back-End",
-    stacks: ["docker", "nodejs", "php", "nest", "express", "java", "python", "kotlin"]
+    stacks: ["nodejs", "php", "nest", "express", "java", "python", "golang", "adonis", "kotlin", "docker"]
   },
   database: {
     title: "Database",

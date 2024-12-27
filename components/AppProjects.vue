@@ -9,7 +9,7 @@ const projects = ref([
   },
   {
     id: "pizzadipasta",
-    link: "https://pizzadipasta.com",
+    link: "https://youtu.be/iDiPJ392dFQ",
     technologies: ['laravel', 'tailwind', 'php', 'mysql'],
   },
   {
@@ -19,7 +19,7 @@ const projects = ref([
   },
   {
     id: "medialerts",
-    link: "https://medialerts.com",
+    link: "https://github.com/ouaischatem/medialerts",
     technologies: ['react', 'tailwind', 'figma', 'ts', 'nest', 'mongodb'],
   },
 ]);
