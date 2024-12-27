@@ -200,7 +200,13 @@ export default defineI18nConfig(() => ({
                     title: "Finalization",
                     description: "Once the project is complete, I fine-tune the details, conduct tests, and deliver a ready-to-deploy solution, ensuring it meets your expectations.",
                 },
-            }
+                contact: {
+                    ready: "Prêt à propulser votre projet",
+                    levelUp: "à un niveau supérieur ?",
+                    sub_title: "Contactez-moi pour un devis gratuit et discutons de vos objectifs.",
+                    quote: "Obtenir un devis"
+                }
+            },
         },
         fr: {
             header: {
@@ -399,7 +405,13 @@ export default defineI18nConfig(() => ({
                     title: "Finalisation",
                     description: "Une fois le projet terminé, je peaufine les détails, effectue les tests et vous livre une solution prête à déployer, en m’assurant qu’elle répond à vos attentes.",
                 },
-            }
+                contact: {
+                    ready: "Prêt à propulser votre projet",
+                    levelUp: "à un niveau supérieur ?",
+                    sub_title: "Contactez-moi pour un devis gratuit et discutons de vos objectifs.",
+                    quote: "Obtenir un devis"
+                }
+            },
         }
     }
 }));
