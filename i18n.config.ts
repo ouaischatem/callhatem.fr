@@ -5,63 +5,63 @@ export default defineI18nConfig(() => ({
     messages: {
         en: {
             header: {
-                description: 'Full-stack developer,',
-                innovative: 'simply Innovative',
-                transformation: 'I help you transform with tailored web solutions.'
+                description: "Custom web development,",
+                innovative: "effective digital solutions",
+                transformation: "Boost your business with tailored, modern web solutions suited to your needs."
             },
             button: {
-                contact: 'Let\'s discuss your project'
+                contact: "Let's develop your project together"
             },
             nav: {
                 about: "About",
                 projects: "Projects",
                 testimonials: "Testimonials",
-                skills: "Skills",
-                contact: "Contact"
+                skills: "Expertise",
+                contact: "Contact me"
             },
             projects: {
-                title: "Some recent projets",
-                view_more: "See more",
+                title: "A glimpse of some recent projects",
+                view_more: "View more",
                 noctines: {
                     title: "Nocturnal Stories - Noctines",
-                    description: "Noctines is a project dedicated to collecting individual nocturnal experiences from around the world."
+                    description: "Noctines allows users to share their nocturnal experiences from around the world by placing a marker on a map and filling out a form."
                 },
                 pizzadipasta: {
                     title: "Pizzeria Website - PizzaDiPasta",
-                    description: "A website for a modern pizzeria designed to attract pizza lovers."
+                    description: "A complete website for a pizzeria with order and cart management, simple and accessible for both customers and the pizzeria."
                 },
                 copyexpert: {
-                    title: "AI Assistant SaaS - CopyExpert",
-                    description: "AI-based SaaS platform for content generation."
+                    title: "AI SaaS Assistant - CopyExpert",
+                    description: "An AI-based SaaS platform that assists users daily by generating LinkedIn, Facebook posts, product descriptions, and more."
                 },
                 medialerts: {
-                    title: "Medical Application - MediAlerts",
-                    description: "A medical application to provide real-time alerts."
+                    title: "Medical App - MediAlerts",
+                    description: "An app to scan prescriptions, track treatments, and contact your doctors, simple and accessible."
                 }
             },
             testimonials: {
-                title: "They took the plunge...",
-                global_mark: "Global rating",
+                title: "They trusted me...",
+                global_mark: "Client satisfaction",
                 customers: "Clients",
                 customer0: {
-                    testimonial: "Hatem is an outstanding developer who truly understands my needs. His attention to detail and speed in delivering results is unmatched. Over the course of our collaboration, he has consistently exceeded my expectations. If you need a reliable and skilled developer, I highly recommend him. He is professional and efficient, and the results speak for themselves.",
+                    testimonial: "If you need custom development, look no further. I've been working with Hatem for nearly a year on all my projects, and I've never had any issues. With every order, I never have to worry about the specifications being met. Any bugs found during the initial tests are resolved extremely quickly, and the after-sales service is exceptional. I won’t hesitate to work with him again in the future.",
                     range: "CEO"
                 },
                 customer1: {
-                    testimonial: "Working with Hatem has been a pleasure. He quickly grasped the requirements of my project and delivered exceptional results. His communication is clear and he always ensures that the project is on track. I’m very satisfied with his work and look forward to collaborating with him again in the future.",
-                    range: "Project Manager"
+                    testimonial: "Collaborating with Hatem has been a rewarding experience. He has a deep understanding of his field and delivers high-quality results. What I particularly appreciate is his clear communication and respect for deadlines. At every stage, he met my expectations. I highly recommend him for your digital projects, he is reliable and professional.",
+                    range: "CEO"
                 },
                 customer2: {
-                    testimonial: "Hatem helped me develop a key feature for my application, and the results were fantastic. He is both creative and precise, always coming up with great solutions. His work ethic is second to none, and I appreciate his problem-solving approach. Highly recommended for any development project.",
-                    range: "Product Owner"
+                    testimonial: "Thanks to Hatem, I was able to quickly integrate a key feature into my site. His creativity and technical expertise are outstanding. He finds effective solutions, even with tight deadlines. Hatem is a valuable asset for any project, and I’ll definitely work with him again.",
+                    range: "Individual"
                 },
                 customer3: {
-                    testimonial: "I had the pleasure of working with Hatem on a web development project, and I couldn’t be more pleased with the outcome. He is a true professional who delivers high-quality work quickly and efficiently. His expertise has been invaluable, and I would gladly work with him again on future projects.",
+                    testimonial: "Hatem delivered a web project of excellent quality, exceeding my expectations. His professionalism, responsiveness, and ability to find innovative solutions make him an ideal partner. He always meets deadlines without compromising on quality. I won’t hesitate to work with him again.",
                     range: "CTO"
                 }
             },
             skills: {
-                title: "Explore my skills...",
+                title: "Explore my areas of expertise...",
                 stacks: {
                     nuxt: {
                         title: "NuxtJS",
@@ -81,7 +81,7 @@ export default defineI18nConfig(() => ({
                     },
                     css: {
                         title: "CSS",
-                        description: "Stylesheets"
+                        description: "Cascading Style Sheets"
                     },
                     html: {
                         title: "HTML",
@@ -99,9 +99,17 @@ export default defineI18nConfig(() => ({
                         title: "Docker",
                         description: "Containerization"
                     },
+                    golang: {
+                        title: "Golang",
+                        description: "Programming Language"
+                    },
+                    adonis: {
+                        title: "AdonisJS",
+                        description: "NodeJS Framework"
+                    },
                     nodejs: {
                         title: "NodeJS",
-                        description: "JavaScript Runtime Environment"
+                        description: "JavaScript Environment"
                     },
                     php: {
                         title: "PHP",
@@ -161,7 +169,7 @@ export default defineI18nConfig(() => ({
                     },
                     idea: {
                         title: "JetBrains Suite",
-                        description: "Full IDE (IntelliJ, WebStorm...)"
+                        description: "Complete IDE (IntelliJ, WebStorm...)"
                     },
                     eclipse: {
                         title: "Eclipse",
@@ -177,7 +185,7 @@ export default defineI18nConfig(() => ({
                     },
                     gitlab: {
                         title: "GitLab",
-                        description: "DevOps and CI/CD Platform"
+                        description: "DevOps Platform and CI/CD"
                     },
                     vercel: {
                         title: "Vercel",
@@ -186,87 +194,87 @@ export default defineI18nConfig(() => ({
                 }
             },
             steps: {
-                title: "My process...",
-                step: "Phase",
+                title: "A transparent and efficient process...",
+                step: "Step",
                 step1: {
-                    title: "Planning",
-                    description: "Once the objectives are defined, I create a detailed plan and start sketching the first ideas, involving you from the start.",
+                    title: "Analysis",
+                    description: "Understanding your goals and creating a tailored strategy to ensure the success of your project."
                 },
                 step2: {
                     title: "Development",
-                    description: "Once the plan is approved, I dive into development, regularly sending you updates to ensure full transparency.",
+                    description: "Implementing high-performance, tailored solutions with regular updates for optimal follow-up."
                 },
                 step3: {
-                    title: "Finalization",
-                    description: "Once the project is complete, I fine-tune the details, conduct tests, and deliver a ready-to-deploy solution, ensuring it meets your expectations.",
+                    title: "Launch",
+                    description: "Finalizing, rigorous testing, and delivering a solution ready to drive your business forward."
                 },
                 contact: {
-                    ready: "Prêt à propulser votre projet",
-                    levelUp: "à un niveau supérieur ?",
-                    sub_title: "Contactez-moi pour un devis gratuit et discutons de vos objectifs.",
-                    quote: "Obtenir un devis"
+                    ready: "Ready to boost your project",
+                    levelUp: "and achieve your goals?",
+                    sub_title: "Contact me for a personalized quote and let's turn your ideas into reality.",
+                    quote: "Request a free quote"
                 }
-            },
+            }
         },
         fr: {
             header: {
-                description: 'Développement full-stack,',
-                innovative: 'simplement Innovant',
-                transformation: 'Je vous accompagne dans votre transformation avec des solutions web sur mesure.'
+                description: "Développement web sur mesure,",
+                innovative: "des solutions digitales efficaces",
+                transformation: "Boostez votre activité grâce à des solutions web sur mesure, modernes et adaptées à vos besoins."
             },
             button: {
-                contact: 'Discutons de votre projet'
+                contact: "Développons votre projet ensemble"
             },
             nav: {
                 about: "À propos",
                 projects: "Projets",
-                testimonials: "Témoignages",
-                skills: "Compétences",
-                contact: "Contact"
+                testimonials: "Avis clients",
+                skills: "Expertise",
+                contact: "Contactez-moi"
             },
             projects: {
                 title: "Un aperçu de quelques récents projets",
                 view_more: "Voir plus",
                 noctines: {
                     title: "Histoires Nocturnes - Noctines",
-                    description: "Noctines est un projet dédié à la collecte d'expériences nocturnes individuelles du monde entier."
+                    description: "Noctines permet de partager des expériences nocturnes du monde entier en plaçant un marqueur sur une carte et en remplissant un formulaire."
                 },
                 pizzadipasta: {
                     title: "Site Web Pizzeria - PizzaDiPasta",
-                    description: "Un site web pour une pizzeria moderne conçu pour attirer les amateurs de pizza."
+                    description: "Site complet pour pizzeria avec gestion des commandes et des paniers en ligne, simple et accessible pour les clients et la pizzeria."
                 },
                 copyexpert: {
                     title: "Assistant IA SaaS - CopyExpert",
-                    description: "Plateforme SaaS basée sur l'IA pour la génération de contenu."
+                    description: "Plateforme SaaS basée sur l’IA, qui assiste l’utilisateur au quotidien en générant des posts LinkedIn, Facebook, des descriptions de produits, et bien plus."
                 },
                 medialerts: {
                     title: "Application Médicale - MediAlerts",
-                    description: "Une application médicale pour fournir des alertes en temps réel."
+                    description: "Application pour scanner les ordonnances, suivre les traitements et contacter vos médecins, simple et accessible."
                 },
             },
             testimonials: {
-                title: "Ils ont franchi le pas...",
-                global_mark: "Note globale",
+                title: "Ils m'ont fait confiance...",
+                global_mark: "Satisfaction client",
                 customers: "Clients",
                 customer0: {
-                    testimonial: "Hatem est un développeur exceptionnel qui comprend vraiment mes besoins. Son souci du détail et sa rapidité à livrer des résultats sont inégalés. Tout au long de notre collaboration, il a constamment dépassé mes attentes. Si vous avez besoin d'un développeur fiable et compétent, je le recommande vivement. Il est professionnel, efficace et les résultats parlent d'eux-mêmes.",
+                    testimonial: "Si vous avez besoin de développement sur mesure, n’allez pas chercher ailleurs. Ça fait presque un an que je fais appel à Hatem pour tous mes projets, et je n’ai jamais rencontré de problème. À chaque commande, je n’ai jamais à m’inquiéter du respect du cahier des charges. Les rares bugs rencontrés lors des premiers tests sont réglés extrêmement rapidement, et le service après-vente est exceptionnel. Je n’hésiterai pas à refaire appel à lui à l’avenir.",
                     range: "CEO"
                 },
                 customer1: {
-                    testimonial: "Travailler avec Hatem a été un vrai plaisir. Il a rapidement compris les exigences de mon projet et livré des résultats exceptionnels. Sa communication est claire et il veille toujours à ce que le projet soit sur la bonne voie. Je suis très satisfait de son travail et j'ai hâte de collaborer à nouveau avec lui à l'avenir.",
+                    testimonial: "Collaborer avec Hatem a été une expérience enrichissante. Il maîtrise parfaitement son sujet et livre des résultats de haute qualité. Ce que j’apprécie particulièrement, c’est sa communication claire et son respect des délais. À chaque étape, il a su répondre à mes attentes. Je le recommande vivement pour vos projets digitaux, il est fiable et professionnel.",
                     range: "CEO"
                 },
                 customer2: {
-                    testimonial: "Hatem m'a aidé à développer une fonctionnalité clé pour mon application et les résultats ont été fantastiques. Il est à la fois créatif et précis, trouvant toujours de bonnes solutions. Son éthique de travail est sans égal et j'apprécie sa capacité à résoudre les problèmes. Je le recommande vivement pour tout projet de développement.",
-                    range: "Responsable produit"
+                    testimonial: "Grâce à Hatem, j’ai pu intégrer rapidement une fonctionnalité clé sur mon site. Sa créativité et son expertise technique sont exceptionnelles. Il trouve des solutions efficaces, même dans des délais serrés. Hatem est un atout précieux pour tout projet, et je n’hésiterai pas à faire appel à lui à nouveau.",
+                    range: "Particulier"
                 },
                 customer3: {
-                    testimonial: "J'ai eu le plaisir de travailler avec Hatem sur un projet de développement web et je ne pourrais pas être plus satisfait du résultat. C'est un véritable professionnel qui livre un travail de qualité rapidement et efficacement. Son expertise a été précieuse et je serais ravi de travailler avec lui sur des projets futurs.",
+                    testimonial: "Hatem a livré un projet web d’excellente qualité, dépassant mes attentes. Son professionnalisme, sa réactivité et sa capacité à trouver des solutions innovantes font de lui un partenaire idéal. Il respecte toujours les délais sans compromettre la qualité du travail. Je n’hésiterai pas à travailler avec lui de nouveau.",
                     range: "CTO"
                 }
             },
             skills: {
-                title: "Explorez mes compétences...",
+                title: "Explorez mes domaines d'expertise...",
                 stacks: {
                     nuxt: {
                         title: "NuxtJS",
@@ -303,6 +311,14 @@ export default defineI18nConfig(() => ({
                     docker: {
                         title: "Docker",
                         description: "Containerization"
+                    },
+                    golang: {
+                        title: "Golang",
+                        description: "Langage de programmation"
+                    },
+                    adonis: {
+                        title: "AdonisJS",
+                        description: "Framework NodeJS"
                     },
                     nodejs: {
                         title: "NodeJS",
@@ -391,27 +407,27 @@ export default defineI18nConfig(() => ({
                 }
             },
             steps: {
-                title: "Mon processus...",
-                step: "Phase",
+                title: "Un processus transparent et efficace...",
+                step: "Étape",
                 step1: {
-                    title: "Planification",
-                    description: "Une fois les objectifs définis, je mets en place un plan détaillé et je commence à esquisser les premières idées, tout en vous impliquant dès le début.",
+                    title: "Analyse",
+                    description: "Compréhension de vos objectifs et création d'une stratégie sur mesure pour garantir le succès de votre projet."
                 },
                 step2: {
                     title: "Développement",
-                    description: "Une fois le plan validé, je me plonge dans le développement, tout en vous envoyant régulièrement des mises à jour pour assurer une transparence totale.",
+                    description: "Mise en œuvre de solutions performantes et adaptées, avec des mises à jour régulières pour un suivi optimal."
                 },
                 step3: {
-                    title: "Finalisation",
-                    description: "Une fois le projet terminé, je peaufine les détails, effectue les tests et vous livre une solution prête à déployer, en m’assurant qu’elle répond à vos attentes.",
+                    title: "Lancement",
+                    description: "Finalisation, tests rigoureux et livraison d'une solution prête à propulser votre activité."
                 },
                 contact: {
-                    ready: "Prêt à propulser votre projet",
-                    levelUp: "à un niveau supérieur ?",
-                    sub_title: "Contactez-moi pour un devis gratuit et discutons de vos objectifs.",
-                    quote: "Obtenir un devis"
+                    ready: "Prêt à booster votre projet",
+                    levelUp: "et à atteindre vos objectifs ?",
+                    sub_title: "Contactez-moi pour un devis personnalisé et transformons vos idées en réalité.",
+                    quote: "Demander un devis gratuit"
                 }
-            },
+            }
         }
     }
 }));
