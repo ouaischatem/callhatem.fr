@@ -1,0 +1,213 @@
+{
+  "header": {
+    "description": "Custom web development,",
+    "innovative": "effective digital solutions",
+    "transformation": "Boost your business with tailored, modern web solutions suited to your needs."
+  },
+  "button": {
+    "contact": "Let's develop your project together"
+  },
+  "nav": {
+    "about": "About",
+    "projects": "Projects",
+    "testimonials": "Testimonials",
+    "skills": "Expertise",
+    "contact": "Contact me"
+  },
+  "projects": {
+    "title": "A glimpse of some recent projects",
+    "view_more": "View more",
+    "noctines": {
+      "title": "Nocturnal Stories - Noctines",
+      "description": "Noctines allows users to share their nocturnal experiences from around the world by placing a marker on a map and filling out a form."
+    },
+    "pizzadipasta": {
+      "title": "Pizzeria Website - PizzaDiPasta",
+      "description": "A complete website for a pizzeria with order and cart management, simple and accessible for both customers and the pizzeria."
+    },
+    "copyexpert": {
+      "title": "AI SaaS Assistant - CopyExpert",
+      "description": "An AI-based SaaS platform that assists users daily by generating LinkedIn, Facebook posts, product descriptions, and more."
+    },
+    "medialerts": {
+      "title": "Medical App - MediAlerts",
+      "description": "An app to scan prescriptions, track treatments, and contact your doctors, simple and accessible."
+    }
+  },
+  "testimonials": {
+    "title": "They trusted me...",
+    "global_mark": "Client satisfaction",
+    "customers": "Clients",
+    "customer0": {
+      "testimonial": "If you need custom development, look no further. I've been working with Hatem for nearly a year on all my projects, and I've never had any issues. With every order, I never have to worry about the specifications being met. Any bugs found during the initial tests are resolved extremely quickly, and the after-sales service is exceptional. I won’t hesitate to work with him again in the future.",
+      "range": "CEO"
+    },
+    "customer1": {
+      "testimonial": "Collaborating with Hatem has been a rewarding experience. He has a deep understanding of his field and delivers high-quality results. What I particularly appreciate is his clear communication and respect for deadlines. At every stage, he met my expectations. I highly recommend him for your digital projects, he is reliable and professional.",
+      "range": "CEO"
+    },
+    "customer2": {
+      "testimonial": "Thanks to Hatem, I was able to quickly integrate a key feature into my site. His creativity and technical expertise are outstanding. He finds effective solutions, even with tight deadlines. Hatem is a valuable asset for any project, and I’ll definitely work with him again.",
+      "range": "Individual"
+    },
+    "customer3": {
+      "testimonial": "Hatem delivered a web project of excellent quality, exceeding my expectations. His professionalism, responsiveness, and ability to find innovative solutions make him an ideal partner. He always meets deadlines without compromising on quality. I won’t hesitate to work with him again.",
+      "range": "CTO"
+    }
+  },
+  "skills": {
+    "title": "Explore my areas of expertise...",
+    "stacks": {
+      "nuxt": {
+        "title": "NuxtJS",
+        "description": "VueJS Framework"
+      },
+      "vue": {
+        "title": "VueJS",
+        "description": "JavaScript/TypeScript Framework"
+      },
+      "tailwind": {
+        "title": "TailwindCSS",
+        "description": "CSS Framework"
+      },
+      "react": {
+        "title": "React",
+        "description": "JavaScript Library"
+      },
+      "css": {
+        "title": "CSS",
+        "description": "Cascading Style Sheets"
+      },
+      "html": {
+        "title": "HTML",
+        "description": "Markup Language"
+      },
+      "typescript": {
+        "title": "TypeScript",
+        "description": "Programming Language"
+      },
+      "javascript": {
+        "title": "JavaScript",
+        "description": "Programming Language"
+      },
+      "docker": {
+        "title": "Docker",
+        "description": "Containerization"
+      },
+      "golang": {
+        "title": "Golang",
+        "description": "Programming Language"
+      },
+      "adonis": {
+        "title": "AdonisJS",
+        "description": "NodeJS Framework"
+      },
+      "nodejs": {
+        "title": "NodeJS",
+        "description": "JavaScript Environment"
+      },
+      "php": {
+        "title": "PHP",
+        "description": "Programming Language"
+      },
+      "nest": {
+        "title": "NestJS",
+        "description": "NodeJS Framework"
+      },
+      "express": {
+        "title": "ExpressJS",
+        "description": "NodeJS Framework"
+      },
+      "java": {
+        "title": "Java",
+        "description": "Programming Language"
+      },
+      "python": {
+        "title": "Python",
+        "description": "Programming Language"
+      },
+      "kotlin": {
+        "title": "Kotlin",
+        "description": "Programming Language"
+      },
+      "mysql": {
+        "title": "MySQL",
+        "description": "Relational Database"
+      },
+      "postgresql": {
+        "title": "PostgreSQL",
+        "description": "Relational Database"
+      },
+      "mongodb": {
+        "title": "MongoDB",
+        "description": "NoSQL Database"
+      },
+      "supabase": {
+        "title": "Supabase",
+        "description": "Cloud Database"
+      },
+      "sqlite": {
+        "title": "SQLite",
+        "description": "Lightweight Database"
+      },
+      "redis": {
+        "title": "Redis",
+        "description": "In-memory Database"
+      },
+      "vscode": {
+        "title": "Visual Studio Code",
+        "description": "Modern Code Editor"
+      },
+      "sublime": {
+        "title": "Sublime Text",
+        "description": "Fast Text Editor"
+      },
+      "idea": {
+        "title": "JetBrains Suite",
+        "description": "Complete IDE (IntelliJ, WebStorm...)"
+      },
+      "eclipse": {
+        "title": "Eclipse",
+        "description": "IDE for Java and others"
+      },
+      "figma": {
+        "title": "Figma",
+        "description": "Collaborative Design Tool"
+      },
+      "github": {
+        "title": "GitHub",
+        "description": "Source Code Management"
+      },
+      "gitlab": {
+        "title": "GitLab",
+        "description": "DevOps Platform and CI/CD"
+      },
+      "vercel": {
+        "title": "Vercel",
+        "description": "Deployment Platform"
+      }
+    }
+  },
+  "steps": {
+    "title": "A transparent and efficient process...",
+    "step": "Step",
+    "step1": {
+      "title": "Analysis",
+      "description": "Understanding your goals and creating a tailored strategy to ensure the success of your project."
+    },
+    "step2": {
+      "title": "Development",
+      "description": "Implementing high-performance, tailored solutions with regular updates for optimal follow-up."
+    },
+    "step3": {
+      "title": "Launch",
+      "description": "Finalizing, rigorous testing, and delivering a solution ready to drive your business forward."
+    },
+    "contact": {
+      "ready": "Ready to boost your project",
+      "levelUp": "and achieve your goals?",
+      "sub_title": "Contact me for a personalized quote and let's turn your ideas into reality.",
+      "quote": "Request a free quote"
+    }
+  }
+}

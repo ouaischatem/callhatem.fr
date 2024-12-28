@@ -1,0 +1,213 @@
+{
+  "header": {
+    "description": "Développement web sur mesure,",
+    "innovative": "des solutions digitales efficaces",
+    "transformation": "Boostez votre activité grâce à des solutions web sur mesure, modernes et adaptées à vos besoins."
+  },
+  "button": {
+    "contact": "Développons votre projet ensemble"
+  },
+  "nav": {
+    "about": "À propos",
+    "projects": "Projets",
+    "testimonials": "Avis clients",
+    "skills": "Expertise",
+    "contact": "Contactez-moi"
+  },
+  "projects": {
+    "title": "Un aperçu de quelques récents projets",
+    "view_more": "Voir plus",
+    "noctines": {
+      "title": "Histoires Nocturnes - Noctines",
+      "description": "Noctines permet de partager des expériences nocturnes du monde entier en plaçant un marqueur sur une carte et en remplissant un formulaire."
+    },
+    "pizzadipasta": {
+      "title": "Site Web Pizzeria - PizzaDiPasta",
+      "description": "Site complet pour pizzeria avec gestion des commandes et des paniers en ligne, simple et accessible pour les clients et la pizzeria."
+    },
+    "copyexpert": {
+      "title": "Assistant IA SaaS - CopyExpert",
+      "description": "Plateforme SaaS basée sur l’IA, qui assiste l’utilisateur au quotidien en générant des posts LinkedIn, Facebook, des descriptions de produits, et bien plus."
+    },
+    "medialerts": {
+      "title": "Application Médicale - MediAlerts",
+      "description": "Application pour scanner les ordonnances, suivre les traitements et contacter vos médecins, simple et accessible."
+    }
+  },
+  "testimonials": {
+    "title": "Ils m'ont fait confiance...",
+    "global_mark": "Satisfaction client",
+    "customers": "Clients",
+    "customer0": {
+      "testimonial": "Si vous avez besoin de développement sur mesure, n’allez pas chercher ailleurs. Ça fait presque un an que je fais appel à Hatem pour tous mes projets, et je n’ai jamais rencontré de problème. À chaque commande, je n’ai jamais à m’inquiéter du respect du cahier des charges. Les rares bugs rencontrés lors des premiers tests sont réglés extrêmement rapidement, et le service après-vente est exceptionnel. Je n’hésiterai pas à refaire appel à lui à l’avenir.",
+      "range": "CEO"
+    },
+    "customer1": {
+      "testimonial": "Collaborer avec Hatem a été une expérience enrichissante. Il maîtrise parfaitement son sujet et livre des résultats de haute qualité. Ce que j’apprécie particulièrement, c’est sa communication claire et son respect des délais. À chaque étape, il a su répondre à mes attentes. Je le recommande vivement pour vos projets digitaux, il est fiable et professionnel.",
+      "range": "CEO"
+    },
+    "customer2": {
+      "testimonial": "Grâce à Hatem, j’ai pu intégrer rapidement une fonctionnalité clé sur mon site. Sa créativité et son expertise technique sont exceptionnelles. Il trouve des solutions efficaces, même dans des délais serrés. Hatem est un atout précieux pour tout projet, et je n’hésiterai pas à faire appel à lui à nouveau.",
+      "range": "Particulier"
+    },
+    "customer3": {
+      "testimonial": "Hatem a livré un projet web d’excellente qualité, dépassant mes attentes. Son professionnalisme, sa réactivité et sa capacité à trouver des solutions innovantes font de lui un partenaire idéal. Il respecte toujours les délais sans compromettre la qualité du travail. Je n’hésiterai pas à travailler avec lui de nouveau.",
+      "range": "CTO"
+    }
+  },
+  "skills": {
+    "title": "Explorez mes domaines d'expertise...",
+    "stacks": {
+      "nuxt": {
+        "title": "NuxtJS",
+        "description": "Framework VueJS"
+      },
+      "vue": {
+        "title": "VueJS",
+        "description": "Framework JavaScript/TypeScript"
+      },
+      "tailwind": {
+        "title": "TailwindCSS",
+        "description": "Framework CSS"
+      },
+      "react": {
+        "title": "React",
+        "description": "Bibliothèque JavaScript"
+      },
+      "css": {
+        "title": "CSS",
+        "description": "Feuilles de style"
+      },
+      "html": {
+        "title": "HTML",
+        "description": "Langage de balisage"
+      },
+      "typescript": {
+        "title": "TypeScript",
+        "description": "Langage de programmation"
+      },
+      "javascript": {
+        "title": "JavaScript",
+        "description": "Langage de programmation"
+      },
+      "docker": {
+        "title": "Docker",
+        "description": "Containerization"
+      },
+      "golang": {
+        "title": "Golang",
+        "description": "Langage de programmation"
+      },
+      "adonis": {
+        "title": "AdonisJS",
+        "description": "Framework NodeJS"
+      },
+      "nodejs": {
+        "title": "NodeJS",
+        "description": "Environnement JavaScript"
+      },
+      "php": {
+        "title": "PHP",
+        "description": "Langage de programmation"
+      },
+      "nest": {
+        "title": "NestJS",
+        "description": "Framework NodeJS"
+      },
+      "express": {
+        "title": "ExpressJS",
+        "description": "Framework NodeJS"
+      },
+      "java": {
+        "title": "Java",
+        "description": "Langage de programmation"
+      },
+      "python": {
+        "title": "Python",
+        "description": "Langage de programmation"
+      },
+      "kotlin": {
+        "title": "Kotlin",
+        "description": "Langage de programmation"
+      },
+      "mysql": {
+        "title": "MySQL",
+        "description": "Base de données relationnelle"
+      },
+      "postgresql": {
+        "title": "PostgreSQL",
+        "description": "Base de données relationnelle"
+      },
+      "mongodb": {
+        "title": "MongoDB",
+        "description": "Base de données NoSQL"
+      },
+      "supabase": {
+        "title": "Supabase",
+        "description": "Base de données cloud"
+      },
+      "sqlite": {
+        "title": "SQLite",
+        "description": "Base de données légère"
+      },
+      "redis": {
+        "title": "Redis",
+        "description": "Base de données en mémoire"
+      },
+      "vscode": {
+        "title": "Visual Studio Code",
+        "description": "Éditeur de code moderne"
+      },
+      "sublime": {
+        "title": "Sublime Text",
+        "description": "Éditeur de texte rapide"
+      },
+      "idea": {
+        "title": "JetBrains Suite",
+        "description": "IDE complet (IntelliJ, WebStorm...)"
+      },
+      "eclipse": {
+        "title": "Eclipse",
+        "description": "IDE pour Java et autres"
+      },
+      "figma": {
+        "title": "Figma",
+        "description": "Outil de design collaboratif"
+      },
+      "github": {
+        "title": "GitHub",
+        "description": "Gestion de code source"
+      },
+      "gitlab": {
+        "title": "GitLab",
+        "description": "Plateforme DevOps et CI/CD"
+      },
+      "vercel": {
+        "title": "Vercel",
+        "description": "Plateforme de déploiement"
+      }
+    }
+  },
+  "steps": {
+    "title": "Un processus transparent et efficace...",
+    "step": "Étape",
+    "step1": {
+      "title": "Analyse",
+      "description": "Compréhension de vos objectifs et création d'une stratégie sur mesure pour garantir le succès de votre projet."
+    },
+    "step2": {
+      "title": "Développement",
+      "description": "Mise en œuvre de solutions performantes et adaptées, avec des mises à jour régulières pour un suivi optimal."
+    },
+    "step3": {
+      "title": "Lancement",
+      "description": "Finalisation, tests rigoureux et livraison d'une solution prête à propulser votre activité."
+    },
+    "contact": {
+      "ready": "Prêt à booster votre projet",
+      "levelUp": "et à atteindre vos objectifs ?",
+      "sub_title": "Contactez-moi pour un devis personnalisé et transformons vos idées en réalité.",
+      "quote": "Demander un devis gratuit"
+    }
+  }
+}

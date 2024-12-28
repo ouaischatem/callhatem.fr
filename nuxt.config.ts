@@ -48,7 +48,26 @@ export default defineNuxtConfig({
         '@/assets/css/main.css',
     ],
     i18n: {
-        vueI18n: './i18n.config.ts'
+        detectBrowserLanguage: {
+            useCookie: true,
+            fallbackLocale: 'fr',
+        },
+        strategy: 'no_prefix',
+        locales: [
+            {
+                code: 'fr',
+                name: 'Français',
+                file: 'fr-FR.json',
+            },
+            {
+                code: 'en',
+                name: 'English',
+                file: 'en-US.json',
+            },
+        ],
+        lazy: true,
+        langDir: '../locales',
+        defaultLocale: 'fr',
     },
     nitro: {
         compressPublicAssets: true,
