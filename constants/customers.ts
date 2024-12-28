@@ -1,0 +1,1 @@
+export const CUSTOMERS = ['Khemara P.', 'Maxime F.', 'Simon C.', 'Louis L.'];

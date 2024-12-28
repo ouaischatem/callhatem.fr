@@ -1,25 +1,12 @@
 <script lang="ts" setup>
 const {t} = useI18n();
-const selectedCategory = ref("frontEnd");
+import {SKILLS} from '~/constants/skills';
 
-const categories = {
-  frontEnd: {
-    title: "Front-End",
-    stacks: ["nuxt", "vue", "tailwind", "react", "css", "html", "typescript", "javascript"]
-  },
-  backEnd: {
-    title: "Back-End",
-    stacks: ["nodejs", "php", "nest", "express", "java", "python", "golang", "adonis", "kotlin", "docker"]
-  },
-  database: {
-    title: "Database",
-    stacks: ["mysql", "postgresql", "mongodb", "supabase", "sqlite", "redis"]
-  },
-  tools: {
-    title: "IDE & tools",
-    stacks: ["vscode", "sublime", "idea", "eclipse", "figma", "github", "gitlab", "vercel"]
-  },
-};
+const selectedCategory = ref("frontEnd");
+const stacks = computed(() => {
+  const selectedSkill = SKILLS.find(skill => skill.id === selectedCategory.value);
+  return selectedSkill ? selectedSkill.stacks : [];
+});
 </script>
 
 <template>
@@ -28,15 +15,15 @@ const categories = {
 
     <div class="flex justify-center gap-4 mb-8 flex-wrap">
       <button
-          v-for="(category, key) in categories"
+          v-for="(category, key) in SKILLS"
           :key="key"
           :class="[
       'w-44 h-12 px-6 py-3 text-sm font-medium rounded-lg transition-all ease-in-out duration-300',
-          selectedCategory === key
+          selectedCategory === category.id
             ? 'bg-mauve-300 text-white shadow-lg transform scale-105'
             : 'bg-ebony-800 text-gray-300 hover:bg-mauve-300 hover:text-white hover:shadow-md'
         ]"
-          @click="selectedCategory = key"
+          @click="selectedCategory = category.id"
       >
         {{ category.title }}
       </button>
@@ -44,8 +31,8 @@ const categories = {
 
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 justify-center items-center mx-auto max-w-2xl px-4 py-4">
       <AppCard
-          v-for="technology in categories[selectedCategory].stacks"
-          :key="technology.id"
+          v-for="technology in stacks"
+          :key="technology"
           class="p-3 text-left flex flex-col gap-y-4 bg-ebony-900 border shadow-sm border-white/30 rounded-lg transition-all transform"
       >
         <div class="flex flex-row items-center gap-x-3 mt-auto">

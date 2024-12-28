@@ -1,15 +1,8 @@
 <script lang="ts" setup>
-import AppSectionTitle from "~/components/AppSectionTitle.vue";
+import {CUSTOMERS} from '~/constants/customers';
 
 const containerRef = ref(null)
-
 const {t} = useI18n();
-const testimonials = [
-  {username: "Khemara P."},
-  {username: "Maxime F."},
-  {username: "Simon C."},
-  {username: "Louis L."},
-];
 const swiper = useSwiper(containerRef, {
   centeredSlides: true,
   loop: true,
@@ -35,7 +28,7 @@ const swiper = useSwiper(containerRef, {
     <ClientOnly>
       <swiper-container ref="containerRef" :init="false" class="max-w-screen-lg mx-auto">
         <swiper-slide
-            v-for="(testimonial, index) in testimonials"
+            v-for="(customer, index) in CUSTOMERS"
             :key="index"
             class="swiper-slide transition-transform duration-500 flex justify-center items-center cursor-pointer"
         >
@@ -54,7 +47,7 @@ const swiper = useSwiper(containerRef, {
 
               <div class="flex flex-col justify-start">
                 <h1 class="text-xs sm:text-sm font-bold text-white">
-                  {{ testimonial.username }}
+                  {{ customer }}
                 </h1>
                 <span class="text-xs text-gray-400">{{ t("testimonials.customer" + (index) + ".range") }}</span>
               </div>
