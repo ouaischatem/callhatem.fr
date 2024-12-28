@@ -1,8 +1,10 @@
 <script lang="ts" setup>
+import {SOCIALS} from "~/constants/global";
+
 const {t} = useI18n();
 
 const redirect = () => {
-  navigateTo("https://www.linkedin.com/in/hatem-obeidine/", {external: true, open: {target: '_blank'}});
+  navigateTo(SOCIALS.linkedin.url, {external: true, open: {target: '_blank'}});
 };
 </script>
 
