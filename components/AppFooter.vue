@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import {EMAIL, FULL_NAME, STATUS, SOCIALS} from "~/constants/global";
+import {EMAIL, FULL_NAME, SOCIALS, STATUS} from "~/constants/global";
 
 const {t} = useI18n();
 </script>
@@ -17,7 +17,8 @@ const {t} = useI18n();
         <div v-for="social in SOCIALS" :key="social.name"
              class="w-10 h-10 border border-ebony-600 bg-ebony-950 rounded-full flex justify-center items-center">
           <a :href="social.url" class="flex justify-center" rel="noopener noreferrer" target="_blank">
-            <img :src="`https://skillicons.dev/icons?i=${social.name.toLowerCase()}`" alt="Social icon" class="w-7 rounded-full"/>
+            <img :src="`https://skillicons.dev/icons?i=${social.name.toLowerCase()}`" alt="Social icon"
+                 class="w-7 rounded-full"/>
           </a>
         </div>
       </div>

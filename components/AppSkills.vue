@@ -1,7 +1,7 @@
 <script lang="ts" setup>
-const {t} = useI18n();
 import {SKILLS} from '~/constants/skills';
 
+const {t} = useI18n();
 const selectedCategory = ref("frontEnd");
 const stacks = computed(() => {
   const selectedSkill = SKILLS.find(skill => skill.id === selectedCategory.value);

@@ -3,7 +3,7 @@ import {CUSTOMERS} from '~/constants/customers';
 
 const containerRef = ref(null)
 const {t} = useI18n();
-const swiper = useSwiper(containerRef, {
+useSwiper(containerRef, {
   centeredSlides: true,
   loop: true,
   autoplay: {
