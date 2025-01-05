@@ -7,7 +7,7 @@ export const SKILLS = [
     {
         id: "backEnd",
         title: "Back-End",
-        stacks: ["nodejs", "php", "nest", "express", "java", "python", "golang", "adonis", "kotlin", "docker"],
+        stacks: ["nodejs", "php", "nest", "express", "java", "python", "golang", "adonis", "kotlin"],
     },
     {
         id: "database",
@@ -16,7 +16,7 @@ export const SKILLS = [
     },
     {
         id: "tools",
-        title: "IDE & Tools",
-        stacks: ["vscode", "sublime", "idea", "eclipse", "figma", "github", "gitlab", "vercel"],
+        title: "Tools & more",
+        stacks: ["vscode", "sublime", "idea", "eclipse", "figma", "github", "gitlab", "vercel", "docker", "githubactions"],
     },
 ];
