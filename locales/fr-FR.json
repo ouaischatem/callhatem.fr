@@ -185,6 +185,10 @@
       "vercel": {
         "title": "Vercel",
         "description": "Plateforme de déploiement"
+      },
+      "githubactions": {
+        "title": "GitHub Actions",
+        "description": "Workflows CI/CD"
       }
     }
   },

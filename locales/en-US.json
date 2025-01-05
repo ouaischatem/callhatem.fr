@@ -1,7 +1,7 @@
 {
   "header": {
-    "description": "Custom web development,",
-    "innovative": "effective digital solutions",
+    "description": "Expert full-stack development,",
+    "innovative": "building impactful digital solutions",
     "transformation": "Boost your business with tailored, modern web solutions suited to your needs."
   },
   "button": {
@@ -185,6 +185,10 @@
       "vercel": {
         "title": "Vercel",
         "description": "Deployment Platform"
+      },
+      "githubactions": {
+        "title": "GitHub Actions",
+        "description": "CI/CD Workflow Automation"
       }
     }
   },
